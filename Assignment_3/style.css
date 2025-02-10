@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  line-height: 1.5;
+  background-color: #a7a8cd;
+  font-family: "Merriweather", serif;
+  padding: 0.8rem;
+}
+
+.watch-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.watch-card .content {
+  position: relative;
+  width: 100%;
+}
+
+.sticker {
+  position: absolute;
+  top: 9px;
+  left: -10px;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 8px 15px 8px 7px;
+  border-radius: 5px 20px 20px 5px;
+  background-color: #fcf8b8;
+}
+
+.watch-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.watch-card-text {
+  padding: 20px
+}
+
+.watch-card-text p {
+  font-size: 14px;
+  color: black;
+  padding: 8px 0;
+  font-weight: 500;
+}
+
+.watch-card-text span{
+  color: #2d2c2c;
+  font-weight: 400;
+  font-size: 14px;
+}

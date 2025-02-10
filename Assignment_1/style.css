@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #202020;
+  font-family: sans-serif;
+}
+.container{
+  margin-top:150px;
+  position: relative;
+}
+h1 {
+  border: 1px solid #ed288b;
+  border-radius:5px;
+  background-color: #ed288b;
+  color:black;
+  width:340px;
+  position:absolute; 
+  top:-50px;
+  text-align:center;
+  padding:20px;  
+  font-weight: 700;
+  font-size:2rem;
+  z-index:3;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px;
+}
+
+p {
+  border: 1px solid white;
+  padding:80px 30px 30px;  
+  text-align: start;
+  background-color: white;
+  color:black;
+  width:400px;
+  position:relative;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius:8px;
+  line-height: 1.5;
+  font-size: 1.08rem;
+}
